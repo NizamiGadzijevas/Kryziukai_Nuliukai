@@ -55,7 +55,7 @@ def zaisti_zaidima():
     while True:
         atspausdinti_tinkleli(tinklelis)        # Spausdinamas tinklelis
         zaidejas = zaidejai[zaidejas_index]     # Iš list zaidėjai, parenkamas X arba O pagal indeksą
-        ejimas = pradeti_ejima(zaidejas)        # Ėjimui priskiriamas skaičius nuo 0 iki 9
+        ejimas = pradeti_ejima(zaidejas)        # Ėjimui priskiriamas skaičius nuo 0 iki 8
         tinklelis[ejimas] = zaidejas            # listui tinklelis pagal indeksą priskiriamas žaidėjas, t. y. X arba O
         if ar_laimejo(tinklelis, zaidejas):     # Tikrinamas laimėtojas
             atspausdinti_tinkleli(tinklelis)
